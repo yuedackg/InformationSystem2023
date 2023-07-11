@@ -1,0 +1,234 @@
+<h1>１．コンピュータシステム</h1>
+<h2>１．3ソフトウェア（ファイルシステム）</h2>
+<article>
+	<h3>問題１</h3>
+	<p>PCのファイルシステムの
+		<ruby>役割<rt>やくわり</rt></ruby>として、
+		<ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。
+	</p>
+	ア．<p>
+
+		アプリケーションプログラムが、
+		<ruby>記録<rt>きろく</rt></ruby>
+		<ruby>媒体<rt>ばいたい</rt></ruby>の
+		<ruby>違<rt>ちが</rt></ruby>いを
+		<ruby>意識<rt>いしき</rt></ruby>しなくてもファイルにアクセスできるように、
+		<ruby>統一<rt>とういつ</rt></ruby>したインタフェースを
+		<ruby>提供<rt>ていきょう</rt></ruby>する。
+	</p>
+	イ．<p>
+		アプリケーションプログラムがファイルアクセスを
+		<ruby>開始<rt>かいし</rt></ruby>し、アクセス
+		<ruby>終了<rt>しゅうりょう</rt></ruby>
+		<ruby>待<rt>ま</rt></ruby>ち
+		<ruby>状態<rt>じょうたい</rt></ruby>になったとき、ほかのアプリケーションプログラムにCPUを
+		<ruby>割<rt>わ</rt></ruby>り
+		<ruby>当<rt>あ</rt></ruby>てる。
+	</p>
+	ウ．<p>
+		アプリケーションプログラムが、ファイルにアクセスするときに
+		<ruby>文字<rt>もじ</rt></ruby>コードの
+		<ruby>違<rt>ちが</rt></ruby>いを
+		<ruby>意識<rt>いしき</rt></ruby>しなくても
+		<ruby>処理<rt>しょり</rt></ruby>ができるように、ファイルの
+		<ruby>文字<rt>もじ</rt></ruby>コードを
+		<ruby>自動<rt>じどう</rt></ruby>
+		<ruby>変換<rt>へんかん</rt></ruby>する。
+	</p>
+	エ．<p>
+		アプリケーションプログラムがファイルにアクセスするのに
+		<ruby>先立<rt>さきだ</rt></ruby>って、
+		<ruby>当該<rt>とうがい</rt></ruby>ファイルがコンピュータウイルスに
+		<ruby>感染<rt>かんせん</rt></ruby>していないかを
+		<ruby>確認<rt>かくにん</rt></ruby>する。
+	</p>
+
+</article>
+
+<article>
+	<h3>問題２</h3>
+	<p>
+		ファイルシステムにおいて、すべての
+		<ruby>利用者<rt>りようしゃ</rt></ruby>がアクセスできるファイルはどれか。
+	</p>
+	ア．<p><ruby>一時<rt>いちじ</rt></ruby>ファイル </p>
+	イ．<p><ruby>共有<rt>きょうゆう</rt></ruby>ファイル</p>
+	ウ．<p>トランザクションファイル</p>
+	エ．<p>マスタファイル</p>
+</article>
+<article>
+	<h3>問題３</h3>
+	<p>ファイルシステムに
+		<ruby>関<rt>かん</rt></ruby>する
+		<ruby>次<rt>つぎ</rt></ruby>の
+		<ruby>記述中<rt>きじゅつちゅう</rt></ruby>のa～cに
+		<ruby>入<rt>い</rt></ruby>れる
+		<ruby>字句<rt>じく</rt></ruby>の
+		<ruby>適切<rt>てきせつ</rt></ruby>な
+		<ruby>組合<rt>くみあわ</rt></ruby>せはどれか。
+	</p>
+	<p>PCでファイルやディレクトリを
+		<ruby>階層的<rt>かいそうてき</rt></ruby>に
+		<ruby>管理<rt>かんり</rt></ruby>するとき、
+		<ruby>最上<rt>さいじょう</rt></ruby>
+		<ruby>位<rt>い</rt></ruby>の
+		<ruby>階層<rt>かいそう</rt></ruby>に
+		<ruby>当<rt>あ</rt></ruby>たるディレクトリをディレクトリ、
+		<ruby>現時点<rt>げんじてん</rt></ruby>で
+		<ruby>利用者<rt>りようしゃ</rt></ruby>が
+		<ruby>操作<rt>そうさ</rt></ruby>を
+		<ruby>行<rt>おこな</rt></ruby>っているディレクトリをディレクトリという。
+		を
+		<ruby>基点<rt>きてん</rt></ruby>として、ファイルやディレクトリの
+		<ruby>所在<rt>しょざい</rt></ruby>
+		<ruby>場所<rt>ばしょ</rt></ruby>を
+		<ruby>示<rt>しめ</rt></ruby>す
+		<ruby>表記<rt>ひょうき</rt></ruby>を、パスという。
+	</p>
+
+	ア
+	カレントルート
+	<ruby>絶対<rt>ぜったい</rt></ruby>
+
+	イ
+	カレントルート
+	<ruby>相対<rt>そうたい</rt></ruby>
+
+	ウ
+	ルートカレント
+	<ruby>絶対<rt>ぜったい</rt></ruby>
+
+	エ
+	ルートカレント
+	<ruby>相対<rt>そうたい</rt></ruby>
+
+	ａ
+	ｂｂ
+	c
+</article>
+<article>
+	<h3>問題４</h3>
+	<p>
+		<ruby>図<rt>ず</rt></ruby>のファイルシステムにおいて、カレントディレクトリがB1であるとき、ファイルC2を
+		<ruby>指<rt>さ</rt></ruby>す
+		<ruby>相対<rt>そうたい</rt></ruby>パスはどこか。
+		ここで、パスの
+		<ruby>表現<rt>ひょうげん</rt></ruby>において“..”は
+		<ruby>親<rt>おや</rt></ruby>ディレクトリを
+		<ruby>表<rt>あらわ</rt></ruby>し、“\”は、パスの
+		<ruby>先頭<rt>せんとう</rt></ruby>にある
+		<ruby>場合<rt>ばあい</rt></ruby>は
+		<ruby>左側<rt>ひだりがわ</rt></ruby>のルートディレクトリの
+		<ruby>省略<rt>しょうりゃく</rt></ruby>を、
+		<ruby>中間<rt>ちゅうかん</rt></ruby>にある
+		<ruby>場合<rt>ばあい</rt></ruby>はディレクトリ
+		<ruby>名<rt>めい</rt></ruby>またはファイル
+		<ruby>名<rt>めい</rt></ruby>の
+		<ruby>区切<rt>くぎ</rt></ruby>りを
+		<ruby>表<rt>あらわ</rt></ruby>す。
+	</p>
+
+
+
+	<p>
+
+		ア．
+		..&YEN;A1&YEN;B2&YEN;C2
+		．．\A1\B2\C2
+
+		イ．
+		．．\B2\C2
+		ウ．
+		A1\B2\C2
+		エ．
+		B1\..\B2\C2
+
+	</p>
+
+</article>
+
+<article>
+	<h3>問題５</h3>
+
+</article>
+
+
+<!-- <ruby><rt></rt></ruby> -->
+<p>
+	ファイルの
+	<ruby>属性<rt>ぞくせい</rt></ruby>
+	<ruby>情報<rt>じょうほう</rt></ruby>として、
+	<ruby>読取<rt>よみと</rt></ruby>り、
+	<ruby>書込<rt>かきこ</rt></ruby>み、
+	<ruby>実行<rt>じっこう</rt></ruby>の
+	<ruby>権限<rt>けんげん</rt></ruby>を
+	<ruby>独立<rt>どくりつ</rt></ruby>に
+	<ruby>設定<rt>せってい</rt></ruby>できるOSがある。この3
+	<ruby>種類<rt>しゅるい</rt></ruby>の
+	<ruby>権限<rt>けんげん</rt></ruby>は、それぞれに1ビットを
+	<ruby>使<rt>つか</rt></ruby>って
+	<ruby>許可<rt>きょか</rt></ruby>、
+	<ruby>不許可<rt>ふきょか</rt></ruby>を
+	<ruby>設定<rt>せってい</rt></ruby>する。この3ビットを8
+	<ruby>進数<rt>しんすう</rt></ruby>
+	<ruby>表現<rt>ひょうげん</rt></ruby>0～7の
+	<ruby>数字<rt>すうじ</rt></ruby>で
+	<ruby>設定<rt>せってい</rt></ruby>するとき、
+	<ruby>次<rt>つぎ</rt></ruby>の
+	<ruby>試行<rt>しこう</rt></ruby>
+	<ruby>結果<rt>けっか</rt></ruby>を
+	<ruby>考<rt>かんが</rt></ruby>えて、
+	<ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。
+
+</p>
+
+<p>
+	【試行結果】
+</p>
+<p>①0を
+<ruby>設定<rt>せってい</rt></ruby>したら、
+<ruby>読取<rt>よみと</rt></ruby>り、
+<ruby>書込<rt>かきこ</rt></ruby>み、
+<ruby>実行<rt>じっこう</rt></ruby>ができなくなってしまった。</p>
+
+<p>②3を
+<ruby>設定<rt>せってい</rt></ruby>したら、
+<ruby>読取<rt>よみと</rt></ruby>りと
+<ruby>書込<rt>かきこ</rt></ruby>みはできたが、
+<ruby>実行<rt>じっこう</rt></ruby>はできなかった。</p>
+
+<p>③7を
+<ruby>設定<rt>せってい</rt></ruby>したら、
+<ruby>読取<rt>よみと</rt></ruby>り、
+<ruby>書込<rt>かきこ</rt></ruby>み、
+<ruby>実行<rt>じっこう</rt></ruby>ができるようになった。</p>
+
+
+ア．
+2を
+<ruby>設定	<rt>せってい</rt></ruby>すると、
+<ruby>読取	<rt>よみと</rt></ruby>りと
+<ruby>実行	<rt>じっこう</rt></ruby>ができる。
+
+イ．
+4を
+<ruby>設定	<rt>せってい</rt></ruby>すると、
+<ruby>実行	<rt>じっこう</rt></ruby>だけができる。
+
+ウ．
+5を
+<ruby>設定	<rt>せってい</rt></ruby>すると、
+<ruby>書込	<rt>かきこ</rt></ruby>みだけができる。
+
+エ．
+6を
+<ruby>設定	<rt>せってい</rt></ruby>すると、
+<ruby>読取	<rt>よみと</rt></ruby>りと
+<ruby>書込	<rt>かきこ</rt></ruby>みができる。
+
+
+\
+A1A2
+B1B2
+C1C2
+：ディレクトリ
