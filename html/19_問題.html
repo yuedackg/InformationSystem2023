@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../desgin.css">
+</head>
+
+<body>
+	<h2>１．3ソフトウェア（表計算ソフト）</h2>
+	<article>
+		<h3>問題３</h3>
+		<p><ruby>表<rt>ひょう</rt></ruby>のセルA1～C2に
+			<ruby>値<rt>あたい</rt></ruby>が
+			<ruby>入力<rt>にゅうりょく</rt></ruby>されている。
+			<ruby>表<rt>おもて</rt></ruby>の
+			<ruby>値<rt>あたい</rt></ruby>をCSV
+			<ruby>形式<rt>けいしき</rt></ruby>で
+			<ruby>出力<rt>しゅつりょく</rt></ruby>した
+			<ruby>結果<rt>けっか</rt></ruby>はどれか。
+			ここで、レコード
+			<ruby>間<rt>あいだ</rt></ruby>の
+			<ruby>区切<rt>くぎ</rt></ruby>りは
+			<ruby>改行<rt>かいぎょう</rt></ruby>
+			コード“CR”を
+			<ruby>使用<rt>しよう</rt></ruby>するものとする。
+		</p>
+		<div>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+
+				</tr>
+				<tr>
+					<td>1</td>
+					<td><ruby>月<rt>つき</rt></ruby> </td>
+					<td>1<ruby>月<rt>がつ</rt></ruby> </td>
+					<td>2<ruby> 月<rt>がつ</rt></ruby></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><ruby>売上高<rt>うりあげだか</rt></ruby> </td>
+					<td>500</td>
+					<td>600</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ans">
+			<div>
+				<p> ア．</p>
+
+			</div>
+			<div>
+				<p>
+					月，1月，2月<sup>C</sup><sub>R</sub><ruby>剰余<rt>じょうよ</rt></ruby><ruby><rt></rt></ruby>，500,600 <sup>C</sup><sub>R</sub>
+				</p>
+			</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p> イ．</p>
+
+			</div>
+			<div>
+				<p>
+					<ruby><rt></rt></ruby>月，
+					<ruby>売上高<rt></rt></ruby><sup>C</sup><sub>R</sub>　1<ruby><rt></rt></ruby>月，500<sup>C</sup><sub>R</sub>2<ruby><rt></rt></ruby>月,600<sup>C</sup><sub>R</sub>
+				</p>
+			</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p> ウ．</p>
+
+			</div>
+			<div>
+				<p>
+					月/1月/2月<sup>C</sup><sub>R</sub>売上高/500/600<sup>C</sup><sub>R</sub>
+				</p>
+			</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p> エ．</p>
+
+			</div>
+			<div>
+				<p>
+					月/売上高<sup>C</sup><sub>R</sub>　1月/500<sup>C</sup><sub>R</sub>2月/600<sup>C</sup><sub>R</sub>
+				</p>
+			</div>
+		</div>
+
+	</article>
+
+	<article>
+		<h3>問題4</h3>
+		<p>セルD2とE2に
+			<ruby>設定<rt>せってい</rt></ruby>した2
+			<ruby>種類<rt>しゅるい</rt></ruby>の
+			<ruby>仮<rt>かり</rt></ruby>の
+			<ruby>消費税率<rt>しょうひぜいりつ</rt></ruby>でセルA4とA5の
+			<ruby>商品<rt>しょうひん</rt></ruby>の
+			<ruby>税込<rt>ぜいこ</rt></ruby>み
+			<ruby>価格<rt>かかく</rt></ruby>を
+			<ruby>計算<rt>けいさん</rt></ruby>するために、セルD4に
+			<ruby>入力<rt>にゅうりょく</rt></ruby>する
+			<ruby>計算<rt>けいさん</rt></ruby>はどれか。ここで、セルD4に
+			<ruby>入力<rt>にゅうりょく</rt></ruby>する
+			<ruby>計算式<rt>けいさんしき</rt></ruby>は、セルD5、E4
+			<ruby>及<rt>およ</rt></ruby>びE5に
+			<ruby>複写<rt>ふくしゃ</rt></ruby>して
+			<ruby>使<rt>つか</rt></ruby>うものとする。
+		</p>
+
+		<table border="1">
+			<tr>
+				<th></th>
+				<th>A</th>
+				<th>B</th>
+				<th>C</th>
+				<th>D</th>
+				<th>E</th>
+
+			</tr>
+			<tr>
+				<td>1</td>
+				<td></td>
+				<td></td>
+
+				<td></td>
+				<td><ruby>消費税率<rt>しょうひぜいりつ</rt></ruby>１</td>
+				<td><ruby>消費税率<rt>しょうひぜいりつ</rt></ruby>２</td>
+
+			</tr>
+			<tr>
+				<td>2</td>
+				<td></td>
+				<td></td>
+
+				<td><ruby>税率<rt>ぜいりつ</rt></ruby></td>
+				<td class="num">0.1</td>
+				<td class="num">0.2</td>
+
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><ruby>商品名<rt>しょうひんめい</rt></ruby></td>
+				<td><ruby>税抜<rt>ぜいぬ</rt></ruby>き
+					<ruby>価格<rt>かかく</rt></ruby>
+				</td>
+
+				<td></td>
+				<td><ruby>税込<rt>ぜいこ</rt></ruby>み
+					<ruby>価格<rt>かかく</rt></ruby>１
+				</td>
+				<td><ruby>税込<rt>ぜいこ</rt></ruby>み
+					<ruby>価格<rt>かかく</rt></ruby>２
+				</td>
+
+			</tr>
+			<tr>
+				<td>4</td>
+				<td><ruby>商品<rt>しょうひん</rt></ruby>A</td>
+				<td class="num">500</td>
+
+				<td></td>
+				<td class="num">550</td>
+				<td class="num">600</td>
+
+			</tr>
+			<tr>
+				<td>5</td>
+				<td><ruby>商品<rt>しょうひん</rt></ruby>A</td>
+				<td class="num">600</td>
+
+				<td></td>
+				<td class="num">660</td>
+				<td class="num">720</td>
+
+			</tr>
+		</table>
+
+		<div class="ans">
+			<div>
+				<p>ア．</p>
+			</div>
+			<div>B4 ＊（1.0＋D2）</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p>イ．</p>
+			</div>
+			<div>B$4 ＊（1.0＋D$2）</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p>ウ．</p>
+			</div>
+			<div>$B4 ＊（1.0＋D$2）</div>
+		</div>
+
+		<div class="ans">
+			<div>
+				<p>エ．</p>
+			</div>
+			<div>$B$4 ＊（1.0＋$D2）</div>
+		</div>
+
+	</article> <!-- 問題５ -->
+
+	<article>
+		<h3>問題5</h3>
+		<p>表計算ソフトを
+			<ruby>用<rt>もち</rt></ruby>いて
+			<ruby>社員<rt>しゃいん</rt></ruby>コード
+			<ruby>中<rt>ちゅう</rt></ruby>のチェックディジッドを
+
+			<ruby>検算<rt>けんざん</rt></ruby>する。
+			<ruby>社員<rt>しゃいん</rt></ruby>コードは3
+			<ruby>桁<rt>けた</rt></ruby>の
+			<ruby>整数値<rt>せいすうち</rt></ruby>で、
+			<ruby>最下位<rt>さいかい</rt></ruby>の1
+			<ruby>桁<rt>けた</rt></ruby>をチェックディジットとして
+			<ruby>利用<rt>りよう</rt></ruby>しており、
+			<ruby>上位<rt>じょうい</rt></ruby>2
+			<ruby>桁<rt>けた</rt></ruby>の
+			<ruby>各桁<rt>かくけた</rt></ruby>の
+			<ruby>数<rt>かず</rt></ruby>を
+			<ruby>加算<rt>かさん</rt></ruby>した
+			<ruby>値<rt>あたい</rt></ruby>の1の
+			<ruby>位<rt>くらい</rt></ruby>と
+			<ruby>同<rt>おな</rt></ruby>じ
+			<ruby>値<rt>あたい</rt></ruby>が
+			<ruby>設定<rt>せってい</rt></ruby>されている。セルB2に
+			<ruby>社員<rt>しゃいん</rt></ruby>コードからチェックディジットを
+			<ruby>算出<rt></rt></ruby>する
+			<ruby>計算式<rt></rt></ruby>を
+			<ruby>入力<rt>にゅうりょく</rt></ruby>し、セルB2～B5に
+			<ruby>複写<rt>ふくしゃ</rt></ruby>するとき、セルB2に
+			<ruby>入力<rt>にゅうりょく</rt></ruby>する
+			<ruby>計算式<rt>けいさんしき</rt></ruby>はどれか。
+		</p>
+
+		<table border="1">
+			<tr>
+				<th></th>
+				<th>A</th>
+				<th class="wide">B</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td><ruby>社員<rt>しゃいん</rt></ruby>コード</td>
+				<td>チェックディジッド</td>
+
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>370</td>
+				<td></td>
+
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>549</td>
+				<td></td>
+
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>538</td>
+				<td></td>
+
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>763</td>
+				<td></td>
+
+			</tr>
+		</table>
+		<div class="ans">
+			<div>
+				<p>ア．</p>
+			</div>
+			<div>
+				<p>10－
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／100）＋
+					<ruby>剰余<rt>じょうよ</rt></ruby>（
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／10）,10）</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>イ．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>剰余<rt>じょうよ</rt></ruby>（10－
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／100）＋
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／10）,10）</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>ウ．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>剰余<rt>じょうよ</rt></ruby>（
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／100）＋
+					<ruby>剰余<rt>じょうよ</rt></ruby>（
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／10）,10），10）</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>エ．</p>
+			</div>
+			<div>
+				<p><ruby>整数部<rt>せいすうち</rt></ruby>（（
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／100）＋
+					<ruby>整数部<rt>せいすうち</rt></ruby>（A2／10）／10）</p>
+			</div>
+		</div>
+	</article>
+	<h2>１．3ソフトウェア（オープンソースソフトウェア）</h2>
+	<article>
+		<h3>問題1</h3>
+		<p>オープンソースソフトウェアの
+			<ruby>基盤<rt>きばん</rt></ruby>となるオープンソースの
+			<ruby>考<rt>かん</rt></ruby>え
+			<ruby>方<rt>かた</rt></ruby>として、
+			<ruby>適切<rt>てきせつ</rt></ruby>でないものはどれか。
+		</p>
+
+		<div class="ans">
+			<div>
+				<p>ア．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>再配布<rt>さいはいふ</rt></ruby>の
+					<ruby>制限<rt>せいげん</rt></ruby>の
+					<ruby>禁止<rt>きんし</rt></ruby>
+				</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>イ．</p>
+			</div>
+			<div>
+				<p>ソースコードの
+					<ruby>公開<rt>こうかい</rt></ruby>
+				</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>ウ．</p>
+			</div>
+			<div>
+				<p> <ruby>適用範囲<rt>てきようはんい</rt></ruby>の
+					<ruby>制限<rt>せいげん</rt></ruby>の
+					<ruby>許可<rt>きょか</rt></ruby>
+				</p>
+			</div>
+		</div>
+		<div class="ans">
+			<div>
+				<p>エ．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>無保証<rt>むほしょう</rt></ruby>の
+					<ruby>原則<rt>げんそく</rt></ruby>
+				</p>
+			</div>
+		</div>
+
+
+	</article>
+	<article>
+		<h3>問題2</h3>
+		<p>
+			OSI（Open Source Initiative）が
+			<ruby>定義<rt>ていぎ</rt></ruby>したOSD（the Open Source Definition）の
+			<ruby>要件<rt>ようけん</rt></ruby>として、
+			<ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。
+		</p>
+
+		<div class="ans">
+			<div>
+				<p>ア．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>同<rt>おな</rt></ruby>じ
+					<ruby>媒体<rt>ばいたい</rt></ruby>で
+					<ruby>配布<rt>はいふ</rt></ruby>される
+					<ruby>他<rt>た</rt></ruby>のソフトウェアを
+					<ruby>制限<rt>せいげん</rt></ruby>してもよい。
+				</p>
+			</div>
+
+		</div>
+		<div class="ans">
+			<div>
+				<p>イ．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>再配布<rt>さいはいふ</rt></ruby>において
+					<ruby>追加<rt>ついか</rt></ruby>ライセンスを
+					<ruby>必要<rt>ひつよう</rt></ruby>としてもよい。
+				</p>
+			</div>
+
+		</div>
+		<div class="ans">
+			<div>
+				<p>ウ．</p>
+			</div>
+			<div>
+				<p>
+					<ruby>差分情報<rt>さぶんじょうほう</rt></ruby>の
+					<ruby>配布<rt>はいふ</rt></ruby>を
+					<ruby>認<rt>みと</rt></ruby>める
+					<ruby>場合<rt>ばあい</rt></ruby>に
+					<ruby>同一性<rt>どういつせい</rt></ruby>の
+					<ruby>保持<rt>ほじ</rt></ruby>を
+					<ruby>要求<rt>ようきゅう</rt></ruby>してもよい。
+				</p>
+			</div>
+
+		</div>
+		<div class="ans">
+			<div>
+				<p>エ．</p>
+			</div>
+			<div>
+				<p><ruby>特定製品<rt>とくていせいひん</rt></ruby>に
+					<ruby>依存<rt>いぞん</rt></ruby>してもよい。
+				</p>
+			</div>
+
+		</div>
+	</article>
+</body>
+
+</html>
+<!-- <ruby><rt></rt></ruby> -->
