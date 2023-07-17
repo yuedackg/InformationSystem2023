@@ -36,3 +36,8 @@ div .ans {
 	flex-wrap: wrap;
 
 }
+.answer{
+	border: solid 1px orange;
+	margin-left: 20px;
+	
+}
