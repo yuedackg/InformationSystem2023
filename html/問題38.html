@@ -14,6 +14,7 @@
 	<h1>２．コンピュータの技術要素</h1>
 	<h2>２．１データベース（関係データベースのデータ操作）</h2>
 	<article>
+		<!-- ２．１データベース（関係データベースのデータ操作） 問題１ -->
 		<h3>問題１</h3>
 		<p><ruby>関係<rt>かんけい</rt></ruby>データベースの
 			<ruby>関係<rt>かんけい</rt></ruby>
@@ -32,285 +33,383 @@
 			<ruby>説明<rt>せつめい</rt></ruby>１：テーブルから
 			<ruby>指定<rt>してい</rt></ruby>したフィールドを
 			<ruby>抽出<rt>ちゅうしゅつ</rt></ruby>する。 <br>
-			<ruby>説明<rt>せつめい</rt></ruby>
-
-			２：
-			テーブルから
-			<ruby>指定<rt>してい</rt></ruby>
-			
-			
-			した
-			<ruby><rt></rt></ruby>
-			条件じょうけん
-			が
-			<ruby><rt></rt></ruby>
-			成立
-			せいりつ
-			するレコードを
-			<ruby><rt></rt></ruby>
-			抽出
-			ちゅうしゅつ
-			する。
-			<br>
-			
-			<ruby><rt></rt></ruby>
-			説明
-			せつめい
-			３：
-			<ruby><rt></rt></ruby>
-			二つ以上
-			いじょう
-			のテーブルを一つのテーブルにまとめる。
+			<ruby>説明<rt>せつめい</rt></ruby> ２： テーブルから
+			<ruby>指定<rt>してい</rt></ruby> した
+			<ruby>条件<rt>じょうけん</rt></ruby> が
+			<ruby>成立<rt>せいりつ</rt></ruby> するレコードを
+			<ruby>抽出<rt>ちゅうしゅつ</rt></ruby> する。
+			<br> <ruby>説明<rt>せつめい</rt></ruby> ３：
+			二つ<ruby>以上<rt>いじょう</rt></ruby>のテーブルを一つのテーブルにまとめる。
 		</p>
 		</p>
 
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div>
+			<p>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>説明１</th>
+					<th>説明２</th>
+					<th>説明３</th>
+				</tr>
+				<tr>
+					<td>ア</td>
+					<td><ruby>結合<rt>けつごう</rt></ruby></td>
+					<td><ruby>射影<rt>しゃえい</rt></ruby></td>
+					<td><ruby>選択<rt>せんたく</rt></ruby></td>
+				</tr>
+			</table>
+			</p>
+
+		</div>
+		<div>
+			<p>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>説明１</th>
+					<th>説明２</th>
+					<th>説明３</th>
+				</tr>
+				<tr>
+					<td>イ</td>
+					<td><ruby>射影<rt>しゃえい</rt></ruby></td>
+					<td><ruby>結合<rt>けつごう</rt></ruby></td>
+					<td><ruby>選択<rt>せんたく</rt></ruby>
+					</td>
+				</tr>
+			</table>
+			</p>
+
+		</div>
+		<div>
+			<p>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>説明１</th>
+					<th>説明２</th>
+					<th>説明３</th>
+				</tr>
+				<tr>
+					<td>ウ</td>
+					<td><ruby>射影<rt>しゃえい</rt></ruby></td>
+					<td><ruby>選択<rt>せんたく</rt></ruby></td>
+					<td><ruby>結合<rt>けつごう</rt></ruby></td>
+
+				</tr>
+			</table>
+			</p>
+
+		</div>
+		<div>
+			<p>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>説明１</th>
+					<th>説明２</th>
+					<th>説明３</th>
+				</tr>
+				<tr>
+					<td>エ</td>
+					<td><ruby>選択<rt>せんたく</rt></ruby></td>
+					<td><ruby>射影<rt>しゃえい</rt></ruby></td>
+					<td><ruby>結合<rt>けつごう</rt></ruby></td>
+
+				</tr>
+			</table>
+			</p>
+
+		</div>
 
 	</article>
+	<article>
+		<!-- ２．１データベース（関係データベースのデータ操作） 問題２ -->
+		<h3>問題２</h3>
+		<div class="question2">
+			<p><ruby>関係<rt>かんけい</rt></ruby>データベースのA
+				<ruby>表<rt>ひょう</rt></ruby>、B
+				<ruby>表<rt>ひょう</rt></ruby>がある。A
+				<ruby>表<rt>ひょう</rt></ruby>、B
+				<ruby>表<rt>ひょう</rt></ruby>から、C
+				<ruby>表<rt>ひょう</rt></ruby>を
+				<ruby>求<rt>もと</rt></ruby>める
+				<ruby>集合<rt>しゅうごう</rt></ruby>
+				<ruby>演算<rt>えんざん</rt></ruby>はどれか。<br>
+				<span>
+					<table border="1">
+						<caption>A</caption>
+						<tr>
+							<th><ruby>社員番号<rt>しゃいんばんごう</rt></ruby></th>
+							<th><ruby>社員氏名<rt>しゃいんしめい</rt></ruby></th>
+						</tr>
+						<tr>
+							<td>S001</td>
+							<td>安藤</td>
+						</tr>
+						<tr>
+							<td>S002</td>
+							<td>井上</td>
+						</tr>
+						<tr>
+							<td>S004</td>
+							<td>江原</td>
+						</tr>
+						<tr>
+							<td>S005</td>
+							<td>太田</td>
+						</tr>
+						<tr>
+							<td>S006</td>
+							<td>加藤</td>
+						</tr>
+					</table>
+				</span>
+				<span>
+					<table border="1">
+						<caption>B</caption>
+						<tr>
+							<th><ruby>社員番号<rt>しゃいんばんごう</rt></ruby></th>
+							<th><ruby>社員氏名<rt>しゃいんしめい</rt></ruby></th>
+						</tr>
+						<tr>
+							<td>S001</td>
+							<td>安藤</td>
+						</tr>
+						<tr>
+							<td>S003</td>
+							<td>上野</td>
+						</tr>
+						<tr>
+							<td>S004</td>
+							<td>江原</td>
+						</tr>
+						<tr>
+							<td>S007</td>
+							<td>菊池</td>
+						</tr>
+					</table>
+				</span>
+				<span>
+					<table border="1">
+						<caption>C</caption>
+						<tr>
+							<th><ruby>社員番号<rt>しゃいんばんごう</rt></ruby></th>
+							<th><ruby>社員氏名<rt>しゃいんしめい</rt></ruby></th>
+						</tr>
+						<tr>
+							<td>S001</td>
+							<td>安藤</td>
+						</tr>
+						<tr>
+							<td>S004</td>
+							<td>江原</td>
+						</tr>
+					</table>
+				</span>
+			</p>
+			<div>
+				ア：
+				<p><ruby>共通集合演算<rt>きょうつうしゅうごうえんざん</rt></ruby>
+					（A∩B）</p>
 
+			</div>
 
+			<div>
+				イ：
+				<p><ruby>差分集合演算<rt>さぶんしゅうごうえんざん</rt></ruby>（Ａ－Ｂ）</p>
+			</div>
 
+			<div>
+				ウ：
+				<p><ruby>直積演算<rt>ちょくせきえんざん</rt></ruby>（Ａ×Ｂ）</p>
+			</div>
+
+			<div>
+				エ：
+				<p><ruby>和集合演算<rt>わしゅうごうえんざん</rt></ruby>（Ａ∪Ｂ）</p>
+			</div>
+
+		</div>
+	</article>
+	<article>
+		<!-- ２．１データベース（関係データベースのデータ操作）　問題３ -->
+		<h3>問題３</h3>
+		<div class="question2">
+			<p>
+				<ruby>関係<rt>かんけい</rt></ruby>データベースで
+				<ruby>管理<rt>かんり</rt></ruby>された“
+				<ruby>業者<rt>ぎょうしゃ</rt></ruby>”
+				<ruby>表<rt>ひょう</rt></ruby>、“
+				<ruby>仕入<rt>しいれ</rt></ruby>
+				<ruby>明細<rt>めいさい</rt></ruby>”
+				<ruby>表<rt>ひょう</rt></ruby>、“
+				<ruby>商品<rt>しょうひん</rt></ruby>”
+				<ruby>表<rt>ひょう</rt></ruby>がある。
+				<ruby>新<rt>あらた</rt></ruby>な
+				<ruby>業者<rt>ぎょうしゃ</rt></ruby>から
+				<ruby>新<rt>あらた</rt></ruby>な
+				<ruby>商品<rt>しょうひん</rt></ruby>を
+				<ruby>仕<rt>し</rt></ruby>
+				<ruby>入<rt>い</rt></ruby>れた
+				<ruby>場合<rt>ばあい</rt></ruby>、
+				<ruby>表<rt>ひょう</rt></ruby>にデータを
+				<ruby>追加<rt>ついか</rt></ruby>する
+				<ruby>順序<rt>じゅんじょ</rt></ruby>のうち、
+				<ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。ここで、
+				<ruby>下線<rt>かせん</rt></ruby>のうち、
+				<ruby>実線<rt>じっせん</rt></ruby>は
+				<ruby>主<rt>しゅ</rt></ruby>キーを示し、
+				<ruby>破線<rt>はせん</rt></ruby>は
+				<ruby>外部<rt>がいぶ</rt></ruby>キーを
+				<ruby>示<rt>しめ</rt></ruby>す。
+				<ruby>解答群<rt>かいとうぐん</rt></ruby>の→はデータを
+				<ruby>追加<rt>ついか</rt></ruby>する
+				<ruby>順序<rt>じゅんじょ</rt></ruby>を
+				<ruby>示<rt>しめ</rt></ruby>す。
+				<br>
+
+			<table border="1">
+				<caption><ruby>業者<rt></rt></ruby></caption>
+				<tr>
+					<td><span class="underline"><ruby>業者<rt></rt></ruby>コード</span></td>
+					<td><ruby>業者名<rt></rt></ruby></td>
+				</tr>
+			</table>
+
+			<table border="1">
+				<caption><ruby>
+						<rt></rt>
+					</ruby>仕入明細</caption>
+				<tr>
+					<td><span class="underline"><ruby>伝票番号<rt>でんぴょうばんごう</rt></ruby></span></td>
+					<td><span class="underline"><ruby>枝番<rt>えだばん</rt></ruby></span></td>
+					<td><ruby>日付<rt>ひづけ</rt></ruby></td>
+					<td><span class="underdashline"><ruby>商品コード<rt>しょうひんこーど</rt></ruby></span></td>
+					<td><ruby>数量<rt>すうりょう</rt></ruby></td>
+				</tr>
+			</table>
+
+			<table border="1">
+				<caption>商品</caption>
+				<tr>
+					<td><span class="underline">商品コード</span></td>
+					<td>商品名</td>
+					<td><span class="underdashline">業者コード</span></td>
+					<td>単価</td>
+				</tr>
+			</table>
+			</p>
+			<div>
+				ア：
+				<p>“
+					<ruby>業者<rt>ぎょうしゃ</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>仕入<rt>しいれ</rt></ruby>
+					<ruby>明細<rt>めいさい</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>商品<rt>しょうひん</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>
+				</p>
+			</div>
+
+			<div>
+				イ：
+				<p>“
+					<ruby>業者<rt>ぎょうしゃ</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>商品<rt>しょうひん</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>仕入<rt>しいれ</rt></ruby>
+					<ruby>明細<rt>めいさい</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>
+				</p>
+			</div>
+
+			<div>
+				ウ：
+				<p>“
+					<ruby>仕入<rt>しいれ</rt></ruby>
+					<ruby>明細<rt>めいさい</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>商品<rt>しょうひん</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>業者<rt>ぎょうしゃ</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>
+				</p>
+			</div>
+
+			<div>
+				エ：
+				<p>“
+					<ruby>商品<rt>しょうひん</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>業者<rt>ぎょうしゃ</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>→“
+					<ruby>仕入<rt>しいれ</rt></ruby>
+					<ruby>明細<rt>めいさい</rt></ruby>”
+					<ruby>表<rt>ひょう</rt></ruby>
+				</p>
+			</div>
+
+		</div>
+	</article>
+
+	<article>
+		<!-- ２．１データベース（関係データベースのデータ操作）　問題４ -->
+
+	</article>
 </body>
 
 </html>
 
 
 
+<h3>問題４</h3>
+<div class="question2">
+	<p><ruby>関係<rt>かんけい</rt></ruby>データベースの“
+		<ruby>売上<rt>うりあげ</rt></ruby>”
+		<ruby>表<rt>ひょう</rt></ruby>と“
+		<ruby>顧客<rt>こきゃく</rt></ruby>”
+		<ruby>表<rt>ひょう</rt></ruby>を
+		<ruby>顧客<rt>こきゃく</rt></ruby>コードで
+		<ruby>結合<rt>けつごう</rt></ruby>し、
+		<ruby>顧客<rt>こきゃく</rt></ruby>コードでグループ
+		<ruby>化<rt>か</rt></ruby>して
+		<ruby>顧客<rt>こきゃく</rt></ruby>ごとの
+		<ruby>売上金額<rt>うりあげきんがく</rt></ruby>の
+		<ruby>合計<rt>ごうけい</rt></ruby>を
+		<ruby>求<rt>もと</rt></ruby>め、
+		<ruby>売上金額<rt>うりあげきんがく</rt></ruby>の
+		<ruby>合計<rt>ごうけい</rt></ruby>を
+		<ruby>降順<rt>こうじゅん</rt></ruby>に
+		<ruby>整列<rt>せいれつ</rt></ruby>した。
+		<ruby>得<rt>え</rt></ruby>られた
+		<ruby>結果<rt>けっか</rt></ruby>の
+		<ruby>先頭<rt>せんとう</rt></ruby>レコードの
+		<ruby>顧客名<rt>こきゃくめい</rt></ruby>はどれか。
+	</p>
+	<div>
+
+	</div>
+</div>
 
 
-説明１説明２説明３
-ア
-結合
-けつごう
-射影
-しゃえい
-選択
-せんたく
-イ
-射影
-しゃえい
-結合
-けつごう
-選択
-せんたく
-ウ
-射影
-しゃえい
-選択
-せんたく
-結合
-けつごう
-エ
-選択
-せんたく
-射影
-しゃえい
-結合
-けつごう
-問題２
-関係
-かんけいデータベースのA表
-ひょう
-、B表
-ひょう
-がある。A表
-ひょう
-、B表
-おもて
-から、C表
-ひょう
-を求める
-もとめる集合しゅうごう演算えんざん
-はどれか。
-ABC
-社員
-しゃいん
-番号
-ばんごう
-社員
-しゃいん
-氏名
-しめい
-社員
-しゃいん
-番号
-ばんごう
-社員
-しゃいん
-氏名
-しめい
-社員
-しゃいん
-番号
-ばんごう
-社員
-しゃいん
-氏名
-しめい
-S001安藤S001安藤S001安藤
-S002井上S003上野S004江原
-S004江原S004江原
-S005太田S007菊池
-S006加藤
-ア：共通集合演算（A∩B）イ：差分集合演算（Ａ－Ｂ）
-ウ：直積演算（Ａ×Ｂ）エ：和集合演算（Ａ∪Ｂ）
-問題３
-関係かんけいデータベースで管理かんり
-された“業者ぎょうしゃ
-”表
-ひょう
-、“仕入しいれ明細めいさい
-”表
-ひょう
-、“商品しょうひん
-”表
-ひょう
-がある。新たあらた
-な業者ぎょうしゃ
-から新たあらた
-な
-商品しょうひん
-を仕
-し
-入
-い
-れた場
-ばあい合、表
-おもてにデータを追加ついか
-する順序じゅんじょ
-のうち、適切てきせつ
-なものはどれか。ここで、下線かせん
-のうち、
-実線じっせん
-は主
-しゅ
-キーを示し、破線はせん
-は外部がいぶ
-キーを示す。解答群かいとうぐんの→はデータを追加ついか
-する順序
-じゅんじょ
-を示
-しめ
-す。
-業者ぎょうしゃ仕入しいれ明細めいさい
-業者ぎょうしゃコード業者名ぎょうしゃめい伝票でんぴょう番号ばんごう枝番えだばん日付ひづけ商品しょうひんコード数量すうりょう
-商品
-しょうひん
-商品
-しょうひん
-コード商
-しょう
-品名
-ひんめい
-業者
-ぎょうしゃ
-コード単価
-たんか
-ア：“業者
-ぎょうしゃ
-”表
-ひょう
-→“仕入
-しいれ
-明細
-めいさい
-”表
-ひょう
-→“商品
-しょうひん
-”表
-ひょう
-イ：“業者
-ぎょうしゃ
-”表
-ひょう
-→“商品
-しょうひん
-”表
-ひょう
-→“仕入
-しいれ
-明細
-めいさい
-”表
-ひょう
-ウ：“仕入
-しいれ
-明細
-めいさい
-”表
-ひょう
-→“商品
-しょうひん
-”表
-ひょう
-→“業者
-ぎょうしゃ
-”表
-ひょう
-エ：“商品
-しょうひん
-”表
-おもて
-→“業者
-ぎょうしゃ
-”表
-ひょう
-→“仕入
-しいれ
-明細
-めいさい
-”表
-ひょう
-問題４
-関係
-かんけいデータベースの“売上
-うりあげ
-”表
-ひょう
-と“顧客
-こきゃく
-”表
-ひょう
-を顧客
-こきゃく
-コードで結合
-けつごう
-し、顧客
-こきゃく
-コードでグループ化
-か
-して顧客
-こきゃく
-ごとの
-売上金額
-うりあげきんがく
-の合計
-ごうけい
-を求
-もと
-め、売上金額
-うりあげきんがく
-の合計
-ごうけい
-を降順
-こうじゅん
-に整列
-せいれつ
-した。得られた
-えられた
-結果
-けっか
-の先頭
-せんとう
-レコードの顧客名
-こきゃくめい
-はどれか。
-売上顧客
-伝票番号顧客コード売上金額（万円）顧客コード顧客名
+<table border="1">
+	<caption>売上</caption>
+	<tr>
+		<th>伝票番号</th>
+		<th>顧客コード</th>
+		<th>売上金額（万円）</th>
+	</tr>
+</table>
+
+<table>
+
+</table>
+顧客
+顧客コード顧客名
 H001K0140K01井上花子
 H002K0280K02佐藤太郎
 H003K03120K03鈴木三郎

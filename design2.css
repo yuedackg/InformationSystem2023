@@ -7,3 +7,12 @@
 .correct{
 	background-color: orange;
 }
+.underline{
+	border-bottom: solid 1px black;
+	padding: 5px;
+}
+
+.underdashline{
+	border-bottom: dashed 1px black;
+	padding: 5px;
+}
