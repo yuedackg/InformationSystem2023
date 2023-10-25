@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../desgin.css">
+    <link rel="stylesheet" href="../design2.css">
+
+</head>
+
+<body>
+    <h1>２．コンピュータの技術要素</h1>
+    <h2>２．１．データベース（データの正規化）</h2>
+    <article>
+        <!-- ２．１．データベース（データの正規化） 問題２ -->
+        <h3>問題２</h3>
+        <div class="question2">
+            <p><ruby>次<rt>つぎ</rt></ruby>の
+                <ruby>表<rt>ひょう</rt></ruby>において、
+                <ruby>項目<rt>こうもく</rt></ruby>Aと
+                <ruby>従属<rt>じゅうぞく</rt></ruby>
+                <ruby>関係<rt>かんけい</rt></ruby>にある
+                <ruby>項目<rt>こうもく</rt></ruby>はどれか。<br>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>3100</td>
+                    <td>10</td>
+                    <td>東京都</td>
+                    <td>3月20日</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>1200</td>
+                    <td>60</td>
+                    <td>東京都</td>
+                    <td>3月20日</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>1200</td>
+                    <td>20</td>
+                    <td>東京都</td>
+                    <td>3月20日</td>
+                </tr>
+
+
+                <tr>
+                    <td>200</td>
+                    <td>1100</td>
+                    <td>10</td>
+                    <td>大阪府</td>
+                    <td>3月12日</td>
+                </tr>
+
+
+                <tr>
+                    <td>200</td>
+                    <td>2200</td>
+                    <td>20</td>
+                    <td>大阪府</td>
+                    <td>3月15日</td>
+                </tr>
+
+
+                <tr>
+                    <td>300</td>
+                    <td>3200</td>
+                    <td>10</td>
+                    <td>北海道</td>
+                    <td>3月15日</td>
+                </tr>
+
+                <tr>
+                    <td>300</td>
+                    <td>1200</td>
+                    <td>30</td>
+                    <td>北海道</td>
+                    <td>3月25日</td>
+                </tr>
+
+                <tr>
+                    <td>400</td>
+                    <td>4300</td>
+                    <td>40</td>
+                    <td>愛知県</td>
+                    <td>3月25日</td>
+                </tr>
+
+                <tr>
+                    <td>400</td>
+                    <td>2200</td>
+                    <td>40</td>
+                    <td>愛知県</td>
+                    <td>3月10日</td>
+                </tr>
+
+                <tr>
+                    <td>400</td>
+                    <td>1200</td>
+                    <td>20</td>
+                    <td>愛知県</td>
+                    <td>3月10日</td>
+                </tr>
+
+            </table>
+            </p>
+
+            <div>ア：
+                <p><ruby>項目<rt>こうもく</rt></ruby>B</p>
+            </div>
+            <div>イ：
+                <p><ruby>項目<rt>こうもく</rt></ruby>C</p>
+            </div>
+            <div>ウ：
+                <p><ruby>項目<rt>こうもく</rt></ruby>D</p>
+            </div>
+            <div>エ：
+                <p><ruby>項目<rt>こうもく</rt></ruby>E</p>
+            </div>
+
+        </div>
+    </article>
+    <article>
+        <!-- ２．１．データベース（データの正規化）　問題３ -->
+        <h3>問題３</h3>
+        <div class="question2">
+            <p><ruby>外部<rt>がいぶ</rt></ruby>キーに
+                <ruby>関<rt>かん</rt></ruby>する
+                <ruby>記述<rt>きじゅつ</rt></ruby>のうち、
+                <ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。
+            </p>
+
+            <div>
+                ア：
+                <p><ruby>同<rt>おな</rt></ruby>じテーブルの
+                    <ruby>中<rt>なか</rt></ruby>に、
+                    <ruby>外部<rt>がいぶ</rt></ruby>キーが
+                    <ruby>同<rt>おな</rt></ruby>じレコードがあってはいけない。
+                </p>
+            </div>
+
+            <div>
+                イ：
+                <p><ruby>外部<rt>がいぶ</rt></ruby>キーに
+                    <ruby>対<rt>たい</rt></ruby>する
+                    <ruby>検索<rt>けんさく</rt></ruby>は、ほかの
+                    <ruby>項目<rt>こうもく</rt></ruby>に
+                    <ruby>対<rt>たい</rt></ruby>する
+                    <ruby>検索<rt>けんさく</rt></ruby>よりも
+                    <ruby>高速<rt>こうそく</rt></ruby>にできる。
+                </p>
+            </div>
+
+            <div>
+                ウ：
+                <p>
+                    <ruby>外部<rt>がいぶ</rt></ruby>キーは、一つのレコードに一つしか
+                    <ruby>設定<rt>せってい</rt></ruby>できない。
+                </p>
+            </div>
+
+            <div>
+                エ：
+                <p><ruby>外部<rt>がいぶ</rt></ruby>キーを
+                    <ruby>利用<rt>りよう</rt></ruby>して、ほかのテーブルを
+                    <ruby>参照<rt>さんしょう</rt></ruby>することができる。
+                </p>
+            </div>
+
+        </div>
+    </article>
+    <article>
+        <!-- ２．１．データベース（データの正規化）　問題４ -->
+        <h3>問題４</h3>
+        <div class="question2">
+            <p>データの
+                <ruby>正規化<rt>せいきか</rt></ruby>に
+                <ruby>関<rt>かん</rt></ruby>する
+                <ruby>記述<rt>きじゅつ</rt></ruby>のうち、
+                <ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。
+            </p>
+
+            <div>
+                ア：
+                <p><ruby>関係<rt>かんけい</rt></ruby>データベースに
+                    <ruby>特有<rt>とくゆう</rt></ruby>なデータベース
+                    <ruby>構築<rt>こうちく</rt></ruby>
+                    <ruby>技法<rt>ぎほう</rt></ruby>であり、データの
+                    <ruby>信頼性<rt>しんらいせい</rt></ruby>と
+                    <ruby>格納<rt>かくのう</rt></ruby>
+                    <ruby>効率<rt>こうりつ</rt></ruby>を
+                    <ruby>向上<rt>こうじょう</rt></ruby>させる。
+                </p>
+            </div>
+
+            <div>イ：
+                <p>データの
+                    <ruby>重複<rt>じゅうふく</rt></ruby>や
+                    <ruby>矛盾<rt>むじゅん</rt></ruby>を
+                    <ruby>排除<rt>はいじょ</rt></ruby>することによって、データベースの
+                    <ruby>論理的<rt>ろんり</rt></ruby>てきなテーブル
+                    <ruby>構造<rt>こうぞう</rt></ruby>を
+                    <ruby>導<rt>みちび</rt></ruby>き
+                    <ruby>出<rt>だ</rt></ruby>す。
+                </p>
+            </div>
+
+            <div>
+                ウ：
+                <p>データベースの
+                    <ruby>運用<rt>うんよう</rt></ruby>
+                    <ruby>管理<rt>かんり</rt></ruby>を
+                    <ruby>容易<rt>ようい</rt></ruby>にするために、それぞれのテーブルのレコードができるだけ
+                    <ruby>短<rt>みじ</rt></ruby>かくなるように
+                    <ruby>分割<rt>ぶんかつ</rt></ruby>する。
+                </p>
+            </div>
+
+            <div>
+                エ：
+                <p>ファイルに
+                    <ruby>格納<rt>かくのう</rt></ruby>するデータの
+                    <ruby>冗長性<rt>じょうちょうせい</rt></ruby>を
+                    <ruby>無<rt>な</rt></ruby>くすことによって、データベースに
+                    <ruby>対<rt>たい</rt></ruby>するアクセス
+                    <ruby>効率<rt>こうりつ</rt></ruby>を
+                    <ruby>向上<rt>こうじょう</rt></ruby>させる。
+                </p>
+            </div>
+
+        </div>
+    </article>
+    <article>
+        <!-- ２．１．データベース（データの正規化）　問題５ -->
+        <h3>問題５</h3>
+        <div class="question2">
+            <p>
+                ファイルで
+                <ruby>管理<rt>かんり</rt></ruby>されていた
+                <ruby>受注<rt>じゅちゅう</rt></ruby>データを、
+                <ruby>受注<rt>じゅちゅう</rt></ruby>に
+                <ruby>関<rt>かん</rt></ruby>する
+                <ruby>情報<rt>じょうほう</rt></ruby>と
+                <ruby>商品<rt>しょうひん</rt></ruby>に
+                <ruby>関<rt>かん</rt></ruby>する
+                <ruby>情報<rt>じょうほう</rt></ruby>に
+                <ruby>分割<rt>ぶんかつ</rt></ruby>して、
+                <ruby>正規化<rt>せいきか</rt></ruby>を
+                <ruby>行<rt>おこな</rt></ruby>った
+                <ruby>上<rt>うえ</rt></ruby>で
+                <ruby>関係<rt>かんけい</rt></ruby>データベースの
+                <ruby>表<rt>ひょう</rt></ruby>で
+                <ruby>管理<rt>かんり</rt></ruby>する。
+                <ruby>正規化<rt>せいきか</rt></ruby>を
+                <ruby>行<rt>おこな</rt></ruby>った
+                <ruby>結果<rt>けっか</rt></ruby>の
+                <ruby>表組<rt>ひょうく</rt></ruby>み
+                <ruby>合<rt>あ</rt></ruby>わせとして、
+                <ruby>最<rt>もっと</rt></ruby>も
+                <ruby>適切<rt>てきせつ</rt></ruby>なものはどれか。ここで、
+                <ruby>同一<rt>どういつ</rt></ruby>
+                <ruby>商品名<rt>しょうひんめい</rt></ruby>で
+                <ruby>単価<rt>たんか</rt></ruby>が
+                <ruby>異<rt>こと</rt></ruby>なるときは
+                <ruby>商品<rt>しょうひん</rt></ruby>
+                <ruby>番号<rt>ばんごう</rt></ruby>も
+                <ruby>異<rt>こと</rt></ruby>なるものとする。
+                <br>
+            <table>
+                <caption>受注データ</caption>
+                <tr>
+                    <th><ruby>受注<rt>じゅちゅう</rt></ruby>
+                        <ruby>番号<rt>ばんごう</rt></ruby>
+                    </th>
+                    <th><ruby>発注者名<rt>はっちゅうしゃめい</rt></ruby></th>
+                    <th><ruby>商品<rt>しょうひん</rt></ruby>
+                        <ruby>番号<rt>ばんごう</rt></ruby>
+                    </th>
+                    <th><ruby>商品名<rt>しょうひんめい</rt></ruby></th>
+                    <th><ruby>個数<rt>こすう</rt></ruby></th>
+                    <th><ruby>単価<rt>たんか</rt></ruby></th>
+                </tr>
+                <tr>
+                    <td>T0001</td>
+                    <td>山田花子</td>
+                    <td>M0001</td>
+                    <td>商品１</td>
+                    <td>5</td>
+                    <td>3,000</td>
+                </tr>
+
+                <tr>
+                    <td>T0002</td>
+                    <td>木村太郎</td>
+                    <td>M0002</td>
+                    <td>商品２</td>
+                    <td>3</td>
+                    <td>4,000</td>
+                </tr>
+
+                <tr>
+                    <td>T0003</td>
+                    <td>佐藤秋子</td>
+                    <td>M0001</td>
+                    <td>商品１</td>
+                    <td>2</td>
+                    <td>3,000</td>
+                </tr>
+            </table>
+            </p>
+
+            <div>
+                ア：
+                <p>
+                <table>
+                    <tr>
+                        <td> <ruby>受注<rt>じゅちゅう</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby>発注者名<rt>はっちゅうしゃめい</rt></ruby></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td> <ruby>商品<rt>しょうひん</rt></ruby><ruby>番号<rt>ばんごう</rt></ruby></td>
+                        <td> <ruby>商品名<rt>しょうひんめい</rt></ruby></td>
+                        <td> <ruby>個数 <rt>こすう</rt> </ruby> </td>
+                        <td> <ruby>単価 <rt>たんか</rt> </ruby> </td>
+                    </tr>
+                </table>
+
+
+
+                </p>
+
+            </div>
+
+            <div>
+                イ：
+                <p>
+                <table>
+                    <tr>
+                        <td> <ruby>受注<rt>じゅちゅう</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby>発注者名<rt>はっちゅうしゃめい</rt></ruby></td>
+                        <td>
+                            <ruby>商品<rt> しょうひん </rt></ruby>
+
+                            <ruby>番号<rt> ばんごう</rt></ruby>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td> <ruby>商品<rt>しょうひん</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td><ruby>商品名<rt>しょうひんめい </rt></ruby></td>
+                        <td> <ruby>個数<rt>こすう</rt></ruby></td>
+                        <td><ruby>単価<rt> たんか</rt></ruby></td>
+                    </tr>
+                </table>
+                </p>
+            </div>
+
+
+            <div>
+                ウ：
+
+                <p>
+                <table>
+                    <tr>
+                        <td><ruby>受注<rt>じゅちゅう</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby>発注者名<rt>はっちゅうしゃめい</rt></ruby></td>
+                        <td><ruby>商品<rt>しょうひん</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td><ruby>個数<rt>こすう</rt></ruby></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td> <ruby>商品<rt>しょうひん</rt></ruby>
+
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td><ruby>商品名<rt>しょうひんめい</rt></ruby></td>
+                        <td> <ruby>個数<rt>こすう</rt></ruby></td>
+                    </tr>
+                </table>
+
+                </p>
+            </div>
+
+
+            <div>
+                エ：
+
+                <p>
+                <table>
+                    <tr>
+                        <td> <ruby>受注<rt> じゅちゅう</rt></ruby>
+
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby> 発注者名<rt>はっちゅうしゃめい</rt></ruby></td>
+                        <td>
+                            <ruby>商品<rt>しょうひん</rt></ruby>
+
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby>個数<rt>こすう</rt></ruby></td>
+                        <td> <ruby>単価<rt>たんか</rt></ruby></td>
+                    </tr>
+                </table>
+
+
+
+                <table>
+                    <tr>
+                        <td> <ruby>商品<rt>しょうひん</rt></ruby>
+                            <ruby>番号<rt>ばんごう</rt></ruby>
+                        </td>
+                        <td> <ruby>商 品名<rt>しょうひんめい</rt></ruby></td>
+                    </tr>
+                </table>
+
+                </p>
+            </div>
+
+        </div>
+    </article>
+</body>
+
+</html>
