@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../desgin.css">
+    <link rel="stylesheet" href="../desgin2.css">
+
+</head>
+
+<body>
+    <h1>２コンピュータの技術要素</h1>
+    <h2>２．１データベース（DBMS（データベースのリカバリ機能））</h2>
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題１ -->
+        
+        <h3>問題１</h3>
+        <div class="question2">
+            <p>HDDなどに
+                <ruby>障害<rt>しょうがい</rt></ruby>が
+                <ruby>発生<rt>はっせい</rt></ruby>したとき、バックアップファイルからデータを
+                <ruby>複写<rt>ふくしゃ</rt></ruby>した
+                <ruby>後<rt>あと</rt></ruby>、バックアップ
+                <ruby>以降<rt>いこう</rt></ruby>に
+                <ruby>行<rt>おこな</rt></ruby>われた
+                <ruby>処理<rt>しょり</rt></ruby>を
+                <ruby>反映<rt>はんえい</rt></ruby>して、
+                <ruby>障害<rt>しょうがい</rt></ruby>
+                <ruby>発生<rt>はっせい</rt></ruby>
+                <ruby>直前<rt>ちょくぜん</rt></ruby>の
+                <ruby>状態<rt>じょうたい</rt></ruby>にまでデータを
+                <ruby>復元<rt>ふくげん</rt></ruby>する
+                <ruby>方法<rt>ほうほう</rt></ruby>はどれか。
+            </p>
+            <div>
+                ア：
+                <p>コミット</p>
+            </div>
+            <div>
+                イ：
+                <p>データクリーニング</p>
+            </div>
+            <div>
+                ウ：
+                <p>ロールバック</p>
+            </div>
+            <div>
+                エ：
+                <p>ロールフォワード</p>
+            </div>
+
+        </div>
+
+    </article>
+
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題２ -->
+        <h3>問題2</h3>
+        <div class="question2">
+            <p>データベースの
+                <ruby>障害<rt>しょうがい</rt></ruby>
+                <ruby>回復<rt>かいふく</rt></ruby>に
+                <ruby>用<rt>もち</rt></ruby>いられる。データベースに対するトランザクションの
+                <ruby>更新<rt>こうしん</rt></ruby>
+                <ruby>結果<rt>けっか</rt></ruby>を
+                <ruby>記録<rt>きろく</rt></ruby>したファイルはどれか。
+            </p>
+
+            <div>
+                ア：
+                <p>インデックスファイル</p>
+            </div>
+
+            <div>
+                イ：
+                <p><ruby>共有<rt>きょうゆう</rt></ruby>ファイル</p>
+            </div>
+
+            <div>
+                ウ：
+                <p>バックアップファイル</p>
+            </div>
+
+            <div>
+                エ：
+                <p>ログファイル</p>
+            </div>
+
+        </div>
+    </article>
+
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題３ -->
+        <h3>問題３</h3>
+        <div class="question2">
+            <p>データベース
+                <ruby>操作<rt>そうさ</rt></ruby>において
+                <ruby>障害<rt>しょうがい</rt></ruby>が
+                <ruby>発生<rt>はっせい</rt></ruby>した
+                <ruby>際<rt>さい</rt></ruby>に、データベースの
+                <ruby>状態<rt>じょうたい</rt></ruby>をトランザクション
+                <ruby>開始前<rt>かいしまえ</rt></ruby>の
+                <ruby>状態<rt>じょうたい</rt></ruby>に
+                <ruby>戻<rt>もど</rt></ruby>す
+                <ruby>障害回復処理<rt>しょうがいかいふくしょり</rt></ruby>はどれか。
+            </p>
+
+            <div>
+                ア：
+                <p>２
+                    <ruby>相<rt>そう</rt></ruby>コミットメント
+                </p>
+            </div>
+
+            <div>
+                イ：
+                <p><ruby>排他<rt>はいた</rt></ruby>
+                    <ruby>制御<rt>せいぎょ</rt></ruby>
+                </p>
+            </div>
+
+            <div>
+                ウ：
+                <p>ロールバック</p>
+            </div>
+
+            <div>
+                エ：
+                <p>ロールフォワード</p>
+            </div>
+
+        </div>
+    </article>
+
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題４ -->
+        <h3>問題４</h3>
+        <div class="question2">
+            <p>
+                <ruby>業務<rt>ぎょうむ</rt></ruby>システムごとに
+                <ruby>異<rt>こと</rt></ruby>なっているフィールド
+                <ruby>名<rt>めい</rt></ruby>や、
+                <ruby>記録<rt>きろく</rt></ruby>してあるデータの
+                <ruby>表記<rt>ひょうき</rt></ruby>
+                <ruby>方法<rt>ほうほう</rt></ruby>を
+                <ruby>統一<rt>とういつ</rt></ruby>して
+                <ruby>最適<rt>さいてき</rt></ruby>な
+                <ruby>状態<rt>じょうたい</rt></ruby>にする
+                <ruby>処理<rt>しょり</rt></ruby>はどれか。
+            </p>
+            <div>
+                ア:
+                <p>データウェアハウス</p>
+            </div>
+
+            <div>
+                イ：
+                <p>データクレンジング</p>
+            </div>
+
+            <div>
+                ウ：
+                <p>データマイニング</p>
+            </div>
+
+            <div>
+                エ：
+                <p>データモデリング</p>
+            </div>
+
+        </div>
+    </article>
+
+
+    <!-- 
+<ruby><rt></rt></ruby>
+ -->
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題５ -->
+        <h3>問題５</h3>
+        <div class="question2">
+            <p>
+                <ruby>処理<rt>しょり</rt></ruby>
+                <ruby>一覧<rt>いちらん</rt></ruby>に
+                <ruby>示<rt>しめ</rt></ruby>す
+                <ruby>実行順<rt>じっこうじゅん</rt></ruby>に、トランザクション1~４を
+                <ruby>実行<rt>じっこう</rt></ruby>する。あるトランザクションが
+                <ruby>途中<rt>とちゅう</rt></ruby>で
+                <ruby>異常<rt>いじょう</rt></ruby>
+                <ruby>終了<rt>しゅうりょう</rt></ruby>し、トランザクションを
+                <ruby>中断<rt>ちゅうだん</rt></ruby>してロールバックした
+                <ruby>結果<rt>けっか</rt></ruby>、データAとデータBが
+                <ruby>残<rt>のこ</rt></ruby>った。
+                <ruby>異常終了<rt>いじょうしゅうりょう</rt></ruby>
+                <!-- <ruby><rt></rt></ruby> -->したトランザクションはどれか。ここで、トランザクションが
+                <ruby>正常<rt>せいじょう</rt></ruby>
+                <ruby>終了<rt>しゅうりょう</rt></ruby>したときにコミットを
+                <ruby>行<rt>おこな</rt></ruby>い、
+                <ruby>次<rt>つぎ</rt></ruby>のトランザクションがあればそれを
+                <ruby>実行<rt>じっこう</rt></ruby>する。
+                <ruby>異常<rt>いじょう</rt></ruby>
+                <ruby>終了<rt>しゅうりょう</rt></ruby>したときは、
+                <ruby>当該<rt>とうがい</rt></ruby>トランザクション
+                <ruby>以降<rt>いこう</rt></ruby>のトランザクションを
+                <ruby>実行<rt>じっこう</rt></ruby>しないものとする。
+                [
+                <ruby>処理<rt>しょり</rt></ruby>
+                <ruby>一覧<rt>いちらん</rt></ruby>
+                ]
+
+            <table border="1">
+                <tr>
+                    <th><ruby>実行順<rt>じっこうじゅん</rt></ruby></th>
+                    <th>トランザクション<ruby>名<rt>めい</rt></ruby></th>
+                    <th><ruby>処理<rt>しょり</rt></ruby></th>
+                </tr>
+                <tr>
+                    <td>１</td>
+                    <td>トランザクション１</td>
+                    <td>データAを<ruby>作成<rt>さくせい</rt></ruby>する。</td>
+                </tr>
+                <tr>
+                    <td>２</td>
+                    <td>トランザクション２</td>
+                    <td>データBを<ruby>作成<rt>さくせい</rt></ruby>し、データAを<ruby>削除<rt>さくじょ</rt></ruby></td>する。
+                </tr>
+                <tr>
+                    <td>３</td>
+                    <td>トランザクション３</td>
+                    <td>データAを<ruby>作成<rt>さくせい</rt></ruby>する。</td>
+                </tr>
+                <tr>
+                    <td>４</td>
+                    <td>トランザクション４</td>
+                    <td>データBを<ruby>削除<rt>さくじょ</rt></ruby>する。</td>
+                </tr>
+            </table>
+
+
+            </p>
+
+
+
+            <div>
+                ア：
+                <p>トランザクション１</p>
+            </div>
+
+            <div>
+                イ：
+                <p>トランザクション２</p>
+            </div>
+
+            <div>
+                ウ：
+                <p>トランザクション３</p>
+            </div>
+
+            <div>
+                エ：
+                <p>トランザクション４</p>
+            </div>
+
+
+        </div>
+    </article>
+
+    <article>
+        <!-- ２．１データベース（DBMS（データベースのリカバリ機能））　問題６ -->
+        <h3>問題６</h3>
+        <div class="question2">
+            <p>
+                2
+                <ruby>相<rt>そう</rt></ruby>
+                コミットメントを
+                <ruby>表<rt>ひょう</rt></ruby>
+                した
+                <ruby>図中<rt>ずちゅう</rt></ruby>
+                のａに入れる
+                <ruby>適切<rt>てきせつ</rt></ruby>なコマンドはどれか。
+
+            </p>
+            <div>
+                ア：
+                <p>コミットの<ruby>実行要求<rt>じっこうようきゅう</rt></ruby>
+                </p>
+            </div>
+            <div>
+                イ:
+                <p>
+                    データクリーニングの<ruby>実行要求<rt>じっこうようきゅう</rt></ruby>
+                </p>
+            </div>
+            <div>
+                ウ:
+
+                <P> ロールバックの <ruby>実行要求<rt>じっこうようきゅう</rt></ruby> </P>
+            </div>
+            <div>
+                エ:
+                <p>ロールフォワードの <ruby>実行要求<rt>じっこうようきゅう</rt></ruby> </p>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>
